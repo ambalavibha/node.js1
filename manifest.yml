@@ -1,0 +1,8 @@
+---
+applications:
+  - name: node-btp-app
+    memory: 256M
+    instances: 1
+    disk_quota: 512M
+    routes:
+      - route: node-btp-app.cfapps.sap.hana.ondemand.com
