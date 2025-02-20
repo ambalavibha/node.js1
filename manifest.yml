@@ -5,5 +5,7 @@ applications:
     instances: 1
     disk_quota: 512M
     random-route: true
+    buildpack:
+      - nodejs_buildpack
     docker:
       image: cfcli/cfcliimage2:1
