@@ -1,9 +1,9 @@
 ---
 applications:
-  - name: node-btp-app
+  - name: node-app
     memory: 256M
     instances: 1
     disk_quota: 512M
     random-route: true
-    buildpacks:
-      - nodejs_buildpack
+    docker:
+      image: cfcli/cfcliimage2:1
